@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-11-20T18:11:43",
+  "method": "browser fetch (Claude in Chrome) + convert_browser_data.py",
+  "browser_meta": {
+    "source": "fund.eastmoney.com/pingzhongdata",
+    "fund_list": "fund.eastmoney.com/js/fundcode_search.js",
+    "start": 20140101,
+    "end": 20241231,
+    "types": [
+      "股票型",
+      "混合型-偏股"
+    ],
+    "generated_at": "2026-11-20T22:53:40.068Z",
+    "n_list_raw": 28400,
+    "n_selected": 2237,
+    "n_ok": 2233,
+    "n_empty": 4,
+    "rows": 3128021,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36"
+  },
+  "failed_codes": {},
+  "n_funds_listed": 2237,
+  "n_funds_with_nav": 2233,
+  "nav_rows": 3128021,
+  "nav_date_range": [
+    "2014-01-02",
+    "2024-12-31"
+  ],
+  "benchmarks": {
+    "000300": 2687,
+    "930950": 2682,
+    "H00300": 2688
+  },
+  "validation": {
+    "rows_checked": 3125460,
+    "share_abs_diff_le_0.02pct": 0.9535252410845123,
+    "ret_pct_missing_share": 0.0,
+    "dividend_rows": 1615
+  }
+}
