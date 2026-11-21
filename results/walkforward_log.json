@@ -1,0 +1,884 @@
+{
+  "pca": [
+    {
+      "method": "pca",
+      "test_year": 2019,
+      "cutoff": "2018-12-28",
+      "train_period": [
+        "2015-12-31",
+        "2018-10-31"
+      ],
+      "n_train_rows": 18743,
+      "n_valid_rows": 7161,
+      "n_test_rows": 8502,
+      "valid_ic": 0.0806,
+      "oos_ic_mean": -0.0973,
+      "best_params": {
+        "n_estimators": 300,
+        "learning_rate": 0.010514261536570035,
+        "num_leaves": 48,
+        "min_child_samples": 669,
+        "subsample": 0.5875072077085569,
+        "colsample_bytree": 0.8488705562076646,
+        "reg_lambda": 0.06322684438522608
+      },
+      "reducer": {
+        "explained_variance_ratio": [
+          0.4311,
+          0.2306,
+          0.0913,
+          0.0657,
+          0.0499,
+          0.0253
+        ],
+        "cum_explained": 0.8939,
+        "recon_r2": 0.8939
+      },
+      "feature_importance_gain": [
+        1183.1,
+        327.7,
+        227.0,
+        183.8,
+        242.5,
+        137.4
+      ],
+      "seconds": 11.4
+    },
+    {
+      "method": "pca",
+      "test_year": 2020,
+      "cutoff": "2019-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2019-10-31"
+      ],
+      "n_train_rows": 27129,
+      "n_valid_rows": 8386,
+      "n_test_rows": 10174,
+      "valid_ic": -0.0382,
+      "oos_ic_mean": 0.0481,
+      "best_params": {
+        "n_estimators": 550,
+        "learning_rate": 0.06323761288073221,
+        "num_leaves": 60,
+        "min_child_samples": 306,
+        "subsample": 0.8046743124131989,
+        "colsample_bytree": 0.9596768477186572,
+        "reg_lambda": 0.08406708837700791
+      },
+      "reducer": {
+        "explained_variance_ratio": [
+          0.4093,
+          0.2364,
+          0.0903,
+          0.067,
+          0.0551,
+          0.0268
+        ],
+        "cum_explained": 0.885,
+        "recon_r2": 0.885
+      },
+      "feature_importance_gain": [
+        1118.3,
+        1056.4,
+        1084.7,
+        1043.4,
+        1094.3,
+        1048.8
+      ],
+      "seconds": 26.9
+    },
+    {
+      "method": "pca",
+      "test_year": 2021,
+      "cutoff": "2020-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2020-10-30"
+      ],
+      "n_train_rows": 37150,
+      "n_valid_rows": 10021,
+      "n_test_rows": 12799,
+      "valid_ic": 0.0941,
+      "oos_ic_mean": 0.0341,
+      "best_params": {
+        "n_estimators": 250,
+        "learning_rate": 0.013698617298045793,
+        "num_leaves": 21,
+        "min_child_samples": 82,
+        "subsample": 0.9606446601056128,
+        "colsample_bytree": 0.9666738872703932,
+        "reg_lambda": 6.915388892477332
+      },
+      "reducer": {
+        "explained_variance_ratio": [
+          0.3759,
+          0.2694,
+          0.0915,
+          0.0669,
+          0.0531,
+          0.0249
+        ],
+        "cum_explained": 0.8817,
+        "recon_r2": 0.8817
+      },
+      "feature_importance_gain": [
+        1345.7,
+        638.3,
+        606.7,
+        671.3,
+        815.3,
+        727.0
+      ],
+      "seconds": 12.8
+    },
+    {
+      "method": "pca",
+      "test_year": 2022,
+      "cutoff": "2021-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2021-10-29"
+      ],
+      "n_train_rows": 49651,
+      "n_valid_rows": 12501,
+      "n_test_rows": 17519,
+      "valid_ic": 0.0562,
+      "oos_ic_mean": -0.0788,
+      "best_params": {
+        "n_estimators": 500,
+        "learning_rate": 0.024795015485794034,
+        "num_leaves": 16,
+        "min_child_samples": 607,
+        "subsample": 0.5300494961676451,
+        "colsample_bytree": 0.5102784272827424,
+        "reg_lambda": 0.031152956002565773
+      },
+      "reducer": {
+        "explained_variance_ratio": [
+          0.3629,
+          0.2784,
+          0.0957,
+          0.0642,
+          0.0547,
+          0.0254
+        ],
+        "cum_explained": 0.8812,
+        "recon_r2": 0.8812
+      },
+      "feature_importance_gain": [
+        724.9,
+        541.4,
+        480.2,
+        418.9,
+        573.4,
+        657.3
+      ],
+      "seconds": 23.4
+    },
+    {
+      "method": "pca",
+      "test_year": 2023,
+      "cutoff": "2022-12-30",
+      "train_period": [
+        "2015-12-31",
+        "2022-10-31"
+      ],
+      "n_train_rows": 66726,
+      "n_valid_rows": 17075,
+      "n_test_rows": 21692,
+      "valid_ic": -0.0443,
+      "oos_ic_mean": 0.0043,
+      "best_params": {
+        "n_estimators": 300,
+        "learning_rate": 0.09664518374186139,
+        "num_leaves": 38,
+        "min_child_samples": 600,
+        "subsample": 0.8034272932539224,
+        "colsample_bytree": 0.9779528873157538,
+        "reg_lambda": 1.4863164731934577
+      },
+      "reducer": {
+        "explained_variance_ratio": [
+          0.3569,
+          0.2782,
+          0.0923,
+          0.0653,
+          0.0556,
+          0.0269
+        ],
+        "cum_explained": 0.8751,
+        "recon_r2": 0.8751
+      },
+      "feature_importance_gain": [
+        594.5,
+        719.0,
+        679.3,
+        639.3,
+        670.4,
+        672.0
+      ],
+      "seconds": 22.8
+    },
+    {
+      "method": "pca",
+      "test_year": 2024,
+      "cutoff": "2023-12-29",
+      "train_period": [
+        "2015-12-31",
+        "2023-10-31"
+      ],
+      "n_train_rows": 88219,
+      "n_valid_rows": 21493,
+      "n_test_rows": 22315,
+      "valid_ic": 0.0247,
+      "oos_ic_mean": -0.0082,
+      "best_params": {
+        "n_estimators": 200,
+        "learning_rate": 0.013189322204980107,
+        "num_leaves": 7,
+        "min_child_samples": 597,
+        "subsample": 0.898068693176586,
+        "colsample_bytree": 0.8915612889499942,
+        "reg_lambda": 8.435833715587833
+      },
+      "reducer": {
+        "explained_variance_ratio": [
+          0.3617,
+          0.2677,
+          0.091,
+          0.0637,
+          0.0554,
+          0.029
+        ],
+        "cum_explained": 0.8685,
+        "recon_r2": 0.8685
+      },
+      "feature_importance_gain": [
+        558.5,
+        738.9,
+        215.3,
+        396.2,
+        589.8,
+        609.7
+      ],
+      "seconds": 14.8
+    }
+  ],
+  "ae": [
+    {
+      "method": "ae",
+      "test_year": 2019,
+      "cutoff": "2018-12-28",
+      "train_period": [
+        "2015-12-31",
+        "2018-10-31"
+      ],
+      "n_train_rows": 18743,
+      "n_valid_rows": 7161,
+      "n_test_rows": 8502,
+      "valid_ic": 0.0746,
+      "oos_ic_mean": -0.0646,
+      "best_params": {
+        "n_estimators": 100,
+        "learning_rate": 0.011183701036560483,
+        "num_leaves": 7,
+        "min_child_samples": 433,
+        "subsample": 0.6239747051663951,
+        "colsample_bytree": 0.6219461449443554,
+        "reg_lambda": 0.31057526419059506
+      },
+      "reducer": {
+        "params": {
+          "hidden": 24,
+          "lr": 0.0011973917635685026,
+          "weight_decay": 0.000133112160807369
+        },
+        "valid_mse": 0.10155,
+        "epochs": 200,
+        "backend": "torch",
+        "recon_r2": 0.9118
+      },
+      "feature_importance_gain": [
+        138.2,
+        38.1,
+        159.1,
+        84.4,
+        328.0,
+        390.5
+      ],
+      "seconds": 63.5
+    },
+    {
+      "method": "ae",
+      "test_year": 2020,
+      "cutoff": "2019-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2019-10-31"
+      ],
+      "n_train_rows": 27129,
+      "n_valid_rows": 8386,
+      "n_test_rows": 10174,
+      "valid_ic": -0.0251,
+      "oos_ic_mean": 0.0551,
+      "best_params": {
+        "n_estimators": 550,
+        "learning_rate": 0.09000256593381754,
+        "num_leaves": 37,
+        "min_child_samples": 175,
+        "subsample": 0.8641111212322818,
+        "colsample_bytree": 0.9761398427220283,
+        "reg_lambda": 1.8139782725734752
+      },
+      "reducer": {
+        "params": {
+          "hidden": 24,
+          "lr": 0.0008110848199986004,
+          "weight_decay": 7.4763120622522945e-06
+        },
+        "valid_mse": 0.12437,
+        "epochs": 200,
+        "backend": "torch",
+        "recon_r2": 0.9049
+      },
+      "feature_importance_gain": [
+        801.1,
+        766.1,
+        763.1,
+        768.3,
+        818.4,
+        831.1
+      ],
+      "seconds": 103.0
+    },
+    {
+      "method": "ae",
+      "test_year": 2021,
+      "cutoff": "2020-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2020-10-30"
+      ],
+      "n_train_rows": 37150,
+      "n_valid_rows": 10021,
+      "n_test_rows": 12799,
+      "valid_ic": 0.098,
+      "oos_ic_mean": 0.0244,
+      "best_params": {
+        "n_estimators": 100,
+        "learning_rate": 0.015703008378806716,
+        "num_leaves": 7,
+        "min_child_samples": 122,
+        "subsample": 0.6943386448447411,
+        "colsample_bytree": 0.6356745158869479,
+        "reg_lambda": 2.0651425578959257
+      },
+      "reducer": {
+        "params": {
+          "hidden": 24,
+          "lr": 0.0008110848199986004,
+          "weight_decay": 7.4763120622522945e-06
+        },
+        "valid_mse": 0.11326,
+        "epochs": 132,
+        "backend": "torch",
+        "recon_r2": 0.8982
+      },
+      "feature_importance_gain": [
+        108.0,
+        195.1,
+        209.3,
+        80.2,
+        91.9,
+        481.5
+      ],
+      "seconds": 108.3
+    },
+    {
+      "method": "ae",
+      "test_year": 2022,
+      "cutoff": "2021-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2021-10-29"
+      ],
+      "n_train_rows": 49651,
+      "n_valid_rows": 12501,
+      "n_test_rows": 17519,
+      "valid_ic": 0.0629,
+      "oos_ic_mean": -0.1129,
+      "best_params": {
+        "n_estimators": 150,
+        "learning_rate": 0.015920296369685102,
+        "num_leaves": 7,
+        "min_child_samples": 94,
+        "subsample": 0.5723438870965938,
+        "colsample_bytree": 0.707344431089896,
+        "reg_lambda": 0.5364169057136237
+      },
+      "reducer": {
+        "params": {
+          "hidden": 24,
+          "lr": 0.0008110848199986004,
+          "weight_decay": 7.4763120622522945e-06
+        },
+        "valid_mse": 0.09664,
+        "epochs": 157,
+        "backend": "torch",
+        "recon_r2": 0.8987
+      },
+      "feature_importance_gain": [
+        162.7,
+        296.9,
+        329.5,
+        163.5,
+        184.5,
+        361.9
+      ],
+      "seconds": 135.8
+    },
+    {
+      "method": "ae",
+      "test_year": 2023,
+      "cutoff": "2022-12-30",
+      "train_period": [
+        "2015-12-31",
+        "2022-10-31"
+      ],
+      "n_train_rows": 66726,
+      "n_valid_rows": 17075,
+      "n_test_rows": 21692,
+      "valid_ic": -0.0376,
+      "oos_ic_mean": 0.0321,
+      "best_params": {
+        "n_estimators": 550,
+        "learning_rate": 0.0866057927854817,
+        "num_leaves": 52,
+        "min_child_samples": 73,
+        "subsample": 0.6963386637979606,
+        "colsample_bytree": 0.6725848202924377,
+        "reg_lambda": 0.040136153871551394
+      },
+      "reducer": {
+        "params": {
+          "hidden": 24,
+          "lr": 0.0008110848199986004,
+          "weight_decay": 7.4763120622522945e-06
+        },
+        "valid_mse": 0.12815,
+        "epochs": 200,
+        "backend": "torch",
+        "recon_r2": 0.8965
+      },
+      "feature_importance_gain": [
+        1620.1,
+        1646.2,
+        1544.2,
+        1706.1,
+        1618.7,
+        1585.4
+      ],
+      "seconds": 210.1
+    },
+    {
+      "method": "ae",
+      "test_year": 2024,
+      "cutoff": "2023-12-29",
+      "train_period": [
+        "2015-12-31",
+        "2023-10-31"
+      ],
+      "n_train_rows": 88219,
+      "n_valid_rows": 21493,
+      "n_test_rows": 22315,
+      "valid_ic": 0.0423,
+      "oos_ic_mean": -0.0139,
+      "best_params": {
+        "n_estimators": 300,
+        "learning_rate": 0.02072304655360649,
+        "num_leaves": 7,
+        "min_child_samples": 51,
+        "subsample": 0.5054572843642806,
+        "colsample_bytree": 0.7194767743766708,
+        "reg_lambda": 0.7074747209410539
+      },
+      "reducer": {
+        "params": {
+          "hidden": 24,
+          "lr": 0.0008110848199986004,
+          "weight_decay": 7.4763120622522945e-06
+        },
+        "valid_mse": 0.12288,
+        "epochs": 200,
+        "backend": "torch",
+        "recon_r2": 0.8953
+      },
+      "feature_importance_gain": [
+        347.0,
+        343.5,
+        452.8,
+        410.3,
+        329.8,
+        339.3
+      ],
+      "seconds": 271.3
+    }
+  ],
+  "raw": [
+    {
+      "method": "raw",
+      "test_year": 2019,
+      "cutoff": "2018-12-28",
+      "train_period": [
+        "2015-12-31",
+        "2018-10-31"
+      ],
+      "n_train_rows": 18743,
+      "n_valid_rows": 7161,
+      "n_test_rows": 8502,
+      "valid_ic": 0.0515,
+      "oos_ic_mean": -0.1137,
+      "best_params": {
+        "n_estimators": 150,
+        "learning_rate": 0.010610618642052783,
+        "num_leaves": 7,
+        "min_child_samples": 55,
+        "subsample": 0.8280902090648562,
+        "colsample_bytree": 0.5775117207085239,
+        "reg_lambda": 6.123469780982472
+      },
+      "reducer": {
+        "dim": null
+      },
+      "feature_importance_gain": [
+        96.1,
+        85.4,
+        147.9,
+        18.8,
+        1.8,
+        3.3,
+        100.0,
+        197.0,
+        12.8,
+        79.2,
+        86.2,
+        22.3,
+        112.6,
+        38.0,
+        181.9,
+        24.1,
+        6.2,
+        22.2,
+        125.0,
+        0.0,
+        62.6,
+        19.9,
+        42.9,
+        20.5,
+        87.6,
+        807.6,
+        9.0,
+        10.3,
+        36.0,
+        185.1
+      ],
+      "seconds": 8.8
+    },
+    {
+      "method": "raw",
+      "test_year": 2020,
+      "cutoff": "2019-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2019-10-31"
+      ],
+      "n_train_rows": 27129,
+      "n_valid_rows": 8386,
+      "n_test_rows": 10174,
+      "valid_ic": -0.0505,
+      "oos_ic_mean": 0.106,
+      "best_params": {
+        "n_estimators": 200,
+        "learning_rate": 0.09120697318992098,
+        "num_leaves": 59,
+        "min_child_samples": 132,
+        "subsample": 0.6379486902206976,
+        "colsample_bytree": 0.5527091571221081,
+        "reg_lambda": 0.00282393435914803
+      },
+      "reducer": {
+        "dim": null
+      },
+      "feature_importance_gain": [
+        277.4,
+        243.6,
+        197.7,
+        131.1,
+        152.7,
+        156.8,
+        119.3,
+        274.4,
+        133.3,
+        130.8,
+        209.4,
+        196.2,
+        165.3,
+        190.9,
+        184.5,
+        123.3,
+        104.8,
+        149.8,
+        106.5,
+        105.0,
+        133.6,
+        199.0,
+        185.2,
+        224.7,
+        140.9,
+        175.9,
+        212.8,
+        211.3,
+        226.1,
+        228.7
+      ],
+      "seconds": 21.4
+    },
+    {
+      "method": "raw",
+      "test_year": 2021,
+      "cutoff": "2020-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2020-10-30"
+      ],
+      "n_train_rows": 37150,
+      "n_valid_rows": 10021,
+      "n_test_rows": 12799,
+      "valid_ic": 0.1315,
+      "oos_ic_mean": 0.0512,
+      "best_params": {
+        "n_estimators": 300,
+        "learning_rate": 0.018718625060315335,
+        "num_leaves": 17,
+        "min_child_samples": 742,
+        "subsample": 0.524426545570008,
+        "colsample_bytree": 0.5460331699492263,
+        "reg_lambda": 0.184056005063303
+      },
+      "reducer": {
+        "dim": null
+      },
+      "feature_importance_gain": [
+        276.7,
+        187.8,
+        249.5,
+        41.7,
+        80.1,
+        56.8,
+        160.4,
+        236.5,
+        66.0,
+        60.7,
+        196.2,
+        255.5,
+        101.8,
+        122.7,
+        184.0,
+        53.0,
+        55.9,
+        82.6,
+        83.7,
+        46.0,
+        65.5,
+        156.7,
+        103.3,
+        126.9,
+        69.6,
+        98.6,
+        115.4,
+        172.3,
+        123.3,
+        417.9
+      ],
+      "seconds": 19.7
+    },
+    {
+      "method": "raw",
+      "test_year": 2022,
+      "cutoff": "2021-12-31",
+      "train_period": [
+        "2015-12-31",
+        "2021-10-29"
+      ],
+      "n_train_rows": 49651,
+      "n_valid_rows": 12501,
+      "n_test_rows": 17519,
+      "valid_ic": 0.07,
+      "oos_ic_mean": 0.0111,
+      "best_params": {
+        "n_estimators": 500,
+        "learning_rate": 0.02807657641297147,
+        "num_leaves": 37,
+        "min_child_samples": 212,
+        "subsample": 0.8953759601584812,
+        "colsample_bytree": 0.8435178682529126,
+        "reg_lambda": 0.029632296632063133
+      },
+      "reducer": {
+        "dim": null
+      },
+      "feature_importance_gain": [
+        1244.0,
+        986.1,
+        814.9,
+        293.9,
+        431.0,
+        376.0,
+        289.7,
+        735.3,
+        301.2,
+        225.3,
+        808.5,
+        591.1,
+        367.0,
+        394.9,
+        412.6,
+        157.0,
+        147.5,
+        392.4,
+        316.7,
+        261.8,
+        265.6,
+        488.6,
+        346.4,
+        571.9,
+        332.9,
+        402.6,
+        486.2,
+        601.4,
+        668.7,
+        1358.2
+      ],
+      "seconds": 41.6
+    },
+    {
+      "method": "raw",
+      "test_year": 2023,
+      "cutoff": "2022-12-30",
+      "train_period": [
+        "2015-12-31",
+        "2022-10-31"
+      ],
+      "n_train_rows": 66726,
+      "n_valid_rows": 17075,
+      "n_test_rows": 21692,
+      "valid_ic": 0.0323,
+      "oos_ic_mean": 0.0409,
+      "best_params": {
+        "n_estimators": 600,
+        "learning_rate": 0.07910111809136804,
+        "num_leaves": 30,
+        "min_child_samples": 600,
+        "subsample": 0.6423565704659765,
+        "colsample_bytree": 0.7210839389440629,
+        "reg_lambda": 0.031536720039972356
+      },
+      "reducer": {
+        "dim": null
+      },
+      "feature_importance_gain": [
+        616.0,
+        563.9,
+        357.8,
+        213.1,
+        319.3,
+        255.9,
+        131.3,
+        466.1,
+        268.8,
+        178.4,
+        500.6,
+        400.2,
+        254.4,
+        293.9,
+        298.7,
+        176.6,
+        141.6,
+        331.4,
+        231.2,
+        219.2,
+        241.4,
+        355.0,
+        275.2,
+        409.0,
+        249.6,
+        254.3,
+        343.3,
+        363.9,
+        425.1,
+        604.1
+      ],
+      "seconds": 57.7
+    },
+    {
+      "method": "raw",
+      "test_year": 2024,
+      "cutoff": "2023-12-29",
+      "train_period": [
+        "2015-12-31",
+        "2023-10-31"
+      ],
+      "n_train_rows": 88219,
+      "n_valid_rows": 21493,
+      "n_test_rows": 22315,
+      "valid_ic": 0.0102,
+      "oos_ic_mean": 0.0013,
+      "best_params": {
+        "n_estimators": 150,
+        "learning_rate": 0.018010921836802137,
+        "num_leaves": 17,
+        "min_child_samples": 237,
+        "subsample": 0.7105690627975615,
+        "colsample_bytree": 0.5435398678347214,
+        "reg_lambda": 0.2562984340070553
+      },
+      "reducer": {
+        "dim": null
+      },
+      "feature_importance_gain": [
+        483.7,
+        274.0,
+        183.3,
+        231.3,
+        201.8,
+        68.3,
+        112.3,
+        315.8,
+        92.9,
+        133.1,
+        425.5,
+        150.6,
+        170.8,
+        86.9,
+        110.8,
+        73.7,
+        37.4,
+        184.9,
+        242.0,
+        69.5,
+        161.2,
+        67.0,
+        64.8,
+        178.6,
+        245.9,
+        337.3,
+        68.6,
+        201.7,
+        192.5,
+        350.9
+      ],
+      "seconds": 31.8
+    }
+  ]
+}

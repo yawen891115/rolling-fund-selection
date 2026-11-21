@@ -1,0 +1,17 @@
+# download cache (the curated files in data/raw/ ARE committed)
+data/raw/nav_cache/
+data/synthetic/
+
+# local / generated
+results_synthetic/
+outputs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/

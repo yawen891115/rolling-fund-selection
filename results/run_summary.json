@@ -1,0 +1,76 @@
+{
+  "config": {
+    "raw_dir": "data/raw",
+    "out_dir": "results",
+    "universe_types": [
+      "股票型",
+      "混合型-偏股"
+    ],
+    "exclude_name_pattern": "持有|定开|定期开放|封闭|滚动",
+    "min_history_days": 252,
+    "max_daily_abs_ret": 0.25,
+    "first_signal": "2015-12-31",
+    "test_start": "2019-01-01",
+    "test_end": "2022-12-31",
+    "holdout_end": "2024-12-31",
+    "n_components": 6,
+    "winsor_q": 0.01,
+    "ae_hidden_choices": [
+      12,
+      16,
+      24
+    ],
+    "ae_epochs": 200,
+    "ae_patience": 15,
+    "ae_trials": 8,
+    "lgbm_trials": 25,
+    "valid_months": 12,
+    "embargo_months": 1,
+    "top_k": 10,
+    "buffer_k": 20,
+    "cov_lookback": 126,
+    "exec_lag": 1,
+    "buy_fee": 0.0015,
+    "sell_fee": 0.005,
+    "rf": 0.015,
+    "benchmark": "930950",
+    "seed": 42,
+    "methods": [
+      "pca",
+      "ae",
+      "raw"
+    ]
+  },
+  "data_report": {
+    "nav_rows": 3128021,
+    "funds_in_file": 2233,
+    "funds_eligible": 1870,
+    "funds_in_matrix": 1866,
+    "calendar": [
+      "2014-01-02",
+      "2024-12-31",
+      2677
+    ],
+    "benchmark_source": "csindex:930950",
+    "rows": 3128021,
+    "filled_from_acc_nav": 0,
+    "dropped_abs_gt_max": 1,
+    "missing_after_clean": 1
+  },
+  "windows": {
+    "2019-2022": [
+      "2019-01-01",
+      "2022-12-31"
+    ],
+    "2023-2024 hold-out": [
+      "2023-01-01",
+      "2024-12-31"
+    ],
+    "2019-2024": [
+      "2019-01-01",
+      "2024-12-31"
+    ]
+  },
+  "first_trading_day": "2019-01-02",
+  "minutes": 20.6
+}

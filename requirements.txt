@@ -1,0 +1,14 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+lightgbm>=4.0
+optuna>=3.4
+torch>=2.0          # 自编码器；没装时自动退回 sklearn 实现（数字会与报告略有差异）
+matplotlib>=3.7
+pyarrow>=14
+
+# To refresh the bundled data from the providers: pip install "akshare>=1.15" requests
+
+# 可选：跑单元测试
+pytest
